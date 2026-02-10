@@ -1,69 +1,43 @@
-\# Student Academic Risk Prediction
+# ML-Based Student Learning Analyzer
 
+## Project Overview
+This project uses Machine Learning to predict whether a student is at academic risk based on factors such as attendance, study hours, and previous exam scores.
 
+## Problem Statement
+Identifying students who are at academic risk early can help educators provide timely support and improve learning outcomes.
 
-\## Project Overview
+## Dataset
+The dataset contains the following features:
+- Attendance (%)
+- Study Hours per Day
+- Previous Exam Score
+- Risk Level (Target)
 
-This project predicts whether a student is academically at risk using machine learning.
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Machine Learning (Classification)
 
-The model is trained using attendance percentage, study hours, and previous exam scores.
+## Project Structure
+- `student_data.py` – Dataset creation
+- `train_model.py` – Model training
+- `predict_student.py` – Student risk prediction
+- `student_performance.csv` – Dataset file
+- `student_risk_model.pkl` – Trained ML model
 
+## How to Run the Project
+1. Clone the repository
+2. Install required libraries:
+## pip install pandas scikit-learn
+3. Train the model:
+## python train_model.py
+4. Predict student risk:
+## python predict_student.py
 
+## Output
+The model predicts whether a student is at **Low Risk** or **High Risk**.
 
-\## Technologies Used
-
-\- Python
-
-\- Pandas
-
-\- Scikit-learn
-
-\- Logistic Regression
-
-
-
-\## Features
-
-\- Custom dataset creation
-
-\- Model training and accuracy evaluation
-
-\- Saving trained model using Pickle
-
-\- Loading saved model for prediction without retraining
-
-
-
-\## How to Run
-
-1\. Install dependencies:
-
-&nbsp;  pip install pandas scikit-learn
-
-
-
-2\. Train the model:
-
-&nbsp;  python train\_model.py
-
-
-
-3\. Predict for a new student:
-
-&nbsp;  python predict\_student.py
-
-
-
-\## Output
-
-The system predicts whether a student is \*\*AT RISK\*\* or \*\*NOT AT RISK\*\*.
-
-
-
-\## Author
-
-Sravanthi
-
-
-
-
+## Author
+**Sravanthi Gunti**
