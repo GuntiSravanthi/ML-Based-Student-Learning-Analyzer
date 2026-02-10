@@ -62,7 +62,8 @@ The system predicts whether a student is \*\*AT RISK\*\* or \*\*NOT AT RISK\*\*.
 
 \## Author
 
-Aparna
+Sravanthi
+
 
 
 
