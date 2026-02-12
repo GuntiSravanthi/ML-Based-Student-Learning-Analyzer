@@ -1,11 +1,17 @@
 # ML-Based Student Learning Analyzer
 
 ## Project Overview
-This project uses Machine Learning to predict whether a student is at academic risk based on factors such as attendance, study hours, and previous exam scores.
+his project is a Machine Learning–based web application that predicts whether a student is academically at risk. The prediction is made using key academic indicators such as attendance percentage, study hours per day, and previous exam scores. The goal of this system is to help educators identify students who may need additional support at an early stage.
 
 ## Problem Statement
-Identifying students who are at academic risk early can help educators provide timely support and improve learning outcomes.
-
+Early identification of academically at-risk students enables timely intervention, improves learning outcomes, and supports data-driven academic decision-making. This project demonstrates how machine learning can assist in educational analytics.
+## Machine Learning Model
+- Algorithm Used: Logistic Regression
+- Type: Binary Classification
+- Output:
+- Low Risk
+- High Risk
+The model also provides a probability score indicating prediction confidence.
 ## Dataset
 The dataset contains the following features:
 - Attendance (%)
@@ -18,7 +24,8 @@ The dataset contains the following features:
 - Pandas
 - NumPy
 - Scikit-learn
-- Machine Learning (Classification)
+- Streamlit
+- pickle
 
 ## Project Structure
 - `student_data.py` – Dataset creation
@@ -26,6 +33,8 @@ The dataset contains the following features:
 - `predict_student.py` – Student risk prediction
 - `student_performance.csv` – Dataset file
 - `student_risk_model.pkl` – Trained ML model
+- app.py – Streamlit web application
+- requirements.txt – Required dependencies
 
 ## How to Run the Project
 1. Clone the repository
@@ -41,3 +50,4 @@ The model predicts whether a student is at **Low Risk** or **High Risk**.
 
 ## Author
 **Sravanthi Gunti**
+
